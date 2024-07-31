@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tóquio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo de estilo CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Descubra Tóquio A Cidade das Mil Facetas</h1>
+        <h2 style="text-align: justify;">Tóquio, a capital do Japão, é uma metrópole vibrante onde tradição e modernidade coexistem. 
+            O famoso Shibuya Crossing é um espetáculo de movimento e luzes, 
+            enquanto o Templo Senso-ji em Asakusa oferece um vislumbre da tradição japonesa. 
+            Tokyo Tower proporciona vistas impressionantes da cidade, e o Palácio Imperial oferece um refúgio tranquilo com seus belos jardins. 
+            Tóquio é uma cidade dinâmica e fascinante que encanta com sua rica cultura e inovação constante.
+        </h2>
+        <p>Explore algumas das mais icônicas imagens da capital do Japão. 
+            Clique nos botões abaixo para ver diferentes imagens e descobrir mais 
+            sobre os pontos turísticos e a beleza de Tóquio.</p>
+        <img id="tokyo-image" src="imagem1.png" alt="Shibuya Crossing à noite" />
+        <div id="caption" class="caption">Shibuya Crossing à noite</div>
+        <div class="button-container">
+            <button onclick="changeImage('imagem1.png', 'Shibuya Crossing à noite')">Imagem 1</button>
+            <button onclick="changeImage('imagem2.jpg', 'Templo Senso-ji durante o dia')">Imagem 2</button>
+            <button onclick="changeImage('imagem3.jpg', 'Tokyo Tower à noite')">Imagem 3</button>
+            <button onclick="changeImage('imagem4.jpg', 'Palácio Imperial de Tóquio')">Imagem 4</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link para o arquivo de script JavaScript -->
+</body>
+</html>
